@@ -18,3 +18,21 @@ Enter a number or enter 0 to stop: 0
 Number of evens: 3
 
 '''
+
+userInput = int(input("Enter a number or enter 0 to stop: "))
+evenCount = 0
+
+def inputRevert():
+  global userInput
+  userInput = int(input("Enter a number or enter 0 to stop: "))
+
+
+while(userInput != 0):
+  if(userInput % 2 == 0):
+    evenCount += 1
+    inputRevert()
+    
+  elif(userInput % 2 != 0):
+    inputRevert()
+
+print(evenCount)
