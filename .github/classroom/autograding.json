@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "part1test1",
+      "setup": "",
+      "run": "python part1.py",
+      "input": "17",
+      "output": ".*4.*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part1test2",
+      "setup": "",
+      "run": "python part1.py",
+      "input": "81",
+      "output": ".*9.*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part2test1",
+      "setup": "",
+      "run": "python part2.py",
+      "input": "5",
+      "output": "Hunter[\\r\\n]Hunter[\\r\\n]Hunter[\\r\\n]Hunter[\\r\\n]Hunter",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part3test1",
+      "setup": "",
+      "run": "python part3.py",
+      "input": "2\r\n3\r\n4\r\n5\r\n6\r\n0",
+      "output": ".*4.*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part4test1",
+      "setup": "",
+      "run": "python part4.py",
+      "input": "2\r\n5\r\n3\r\n3\r\n0",
+      "output": ".*90.*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "part5test1",
+      "setup": "",
+      "run": "python part5.py",
+      "input": "1\r\n3\r\n4\r\n10\r\n5\r\n1\r\n7\r\n0",
+      "output": ".*2.*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
