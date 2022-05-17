@@ -25,7 +25,7 @@
       "setup": "",
       "run": "python part2.py",
       "input": "5",
-      "output": "Hunter[\\r\\n]Hunter[\\r\\n]Hunter[\\r\\n]Hunter[\\r\\n]Hunter[\\r\\n]",
+      "output": "Hunter[\\r\\n]Hunter[\\r\\n]Hunter[\\r\\n]Hunter[\\r\\n]Hunter",
       "comparison": "regex",
       "timeout": 10,
       "points": null
